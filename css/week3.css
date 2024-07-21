@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,::before,::after{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto","Noto Sans TW";
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+h1{
+	font-size: 64px;
+}
+.h2{
+	font-size: 48px;
+}
+.color-primary{
+	color:#AA0601;
+}
+.background-primgary{
+	background-color: #AA0601;
+}
+.background-white{
+	background-color: #FFFFFF;
+}
+.background-other{
+	background-color: #FBF2F2;
+}
+.font-size20{
+	font-size: 20px;
+}
+.font-size24{
+	font-size: 24px;
+}
+.font-size36{
+	font-size: 36px;
+}
+.t-align-center{
+	text-align: center;
+}
+.f-weight-bold{
+	font-weight: bold;
+}
+.f-weight-black{
+	font-weight: 900;
+}
+.f-weight-Regular{
+	font-weight:400;
+}
+.f-style-italic{
+	font-style: italic;
+}
+
+.font-color-white{
+	color: #FFFFFF;
+}
+.font-color-second{
+	color: #650300;
+}
+.d-flex{
+	display: flex;
+}
+.j-space-between{
+	justify-content: space-between;
+}
+.j-flex-end{
+	justify-content: flex-end;
+	
+}
+.a-items-center{
+	align-items: center;
+}
+
+.p-top_bottom{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.column-pd-12{
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.row-left-right{
+	margin-right: -12px;
+	margin-left: -12px;
+}
+.title-bottom{
+	padding-bottom: 48px;
+}
+
+
+
+
+
+
+.container{
+	max-width: 1296px;
+	margin: 0 auto;
+}
+.logo a{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+.header_nav{
+	gap: 64px;
+}
+.header_nav a{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.banner{
+	height: 787px;
+	padding-top: 296px;
+	padding-bottom: 296px;
+	background-image: url("../images/home-header.png");
+	background-size: cover;
+}
+.banner_title{
+	flex-direction: column;
+	align-items:flex-end;
+}
+.banner_button a{
+	padding: 6px 12px;
+}
+
+.column{
+	width: 25%;
+	padding-right: 12px;
+	padding-left: 12px;
+}
+.serve_ul{
+	margin-right: -12px;
+	margin-left: -12px;
+}
+
+.pic_txt{
+	flex-direction: column;
+}
+.pic_txt img{
+	width: 84px;
+	height: 84px;
+	margin-bottom: 24px;
+}
+.serve h2{
+	margin-bottom: 32px;
+}
+.serve h3{
+	margin-bottom: 8px;
+}
+.classic_ul .column{
+	width: 33.3333%;
+}
+.classic_ul .img{
+	height:416px;
+}
+.classic_ul img{
+	height: 100%;
+}
+.button a{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.design{
+	height: 608px;
+	background-image: url("../images/index-bg.png");
+	background-size: cover;
+}
+
+
+.experience_ul .column{
+	width: 25%;
+	
+}
+.experience_pictxt .txt{
+	padding: 16px;
+	height: 205px;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	box-shadow:#00000029 0px 2px  6px;
+}
+
+
+.years_title{
+  color: #707070;
+}
+.connection{
+	background-color: #FBF2F2;
+}
+
+
