@@ -52,7 +52,7 @@ table {
 body{
     font-size: 16px;
     line-height: 1.5;
-    font-family: "Roboto","Noto Sans TW";
+    font-family: "Roboto","Noto Sans TW","思源黑體 TW";
 }
 a{
 	text-decoration: none;
@@ -242,4 +242,36 @@ h1{
 	background-color: #FBF2F2;
 }
 
-
+.footer{
+	padding-top: 48px;
+}
+.footer_nav{
+	margin-bottom: 24px;
+}
+.footer_nav .txt_ul{
+	gap:48px;
+}
+.footer_nav .icon_ul{
+	gap: 32px;
+}
+.footer_nav .icon_ul img{
+	width: 48px;
+	height: 48px;
+}
+.phome_email{
+	border-bottom: 1px solid #fff;
+}
+.phome_email svg{
+	width: 36px;
+	height: 36px;
+}
+.copyright{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.copyright a{
+	font-size: 14px;
+}
+.copyright ul{
+	gap: 48px;
+}
