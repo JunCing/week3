@@ -191,10 +191,7 @@ h1{
 	/*padding-right: 12px;
 	padding-left: 12px;*/
 }
-.serve_ul{
-	/*margin-right: -12px;
-	margin-left: -12px;*/
-}
+
 
 .pic_txt{
 	flex-direction: column;
@@ -309,9 +306,7 @@ h1{
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
-.phome_email li{
-	/*gap: 22px;*/
-}
+
 .phome_email svg{
 	width: 36px;
 	height: 36px;
