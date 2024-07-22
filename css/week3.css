@@ -160,6 +160,10 @@ h1{
 	max-width: 1296px;
 	margin: 0 auto;
 }
+.pd-left-right{
+	padding-right: 12px;
+	padding-left: 12px;
+}
 .logo a{
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -171,12 +175,23 @@ h1{
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+@media (max-width:768px) {
+	.container{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	.header_nav{
+		font-size: 16px;
+		
+	}
+}
+
 .banner{
 	height: 787px;
 	padding-top: 296px;
 	padding-bottom: 296px;
-	background-image: url("../images/home-header.png");
-	background-size: cover;
+	background-image:url("../images/home-header.png");
+	background-size:cover;
 }
 .banner_title{
 	flex-direction: column;
@@ -186,13 +201,20 @@ h1{
 	padding: 6px 12px;
 }
 
-.column{
-	width: 25%;
-	/*padding-right: 12px;
-	padding-left: 12px;*/
+@media (max-width:768px) {
+	.banner{
+		background-image:url("../images/home-header-sm.png");
+		background-size:cover;
+	}
+	.banner h1{
+		font-size: 48px;
+	}
+	
 }
 
-
+.serve_ul .column{
+	width: 25%;
+}
 .pic_txt{
 	flex-direction: column;
 }
@@ -207,6 +229,16 @@ h1{
 .serve h3{
 	margin-bottom: 8px;
 }
+@media (max-width:768px) {
+	.serve_ul{
+		flex-wrap: wrap;
+	}
+	.serve_ul .column{
+		width: 50%;
+		margin-bottom: 24px;
+	}
+}
+
 .classic_ul .column{
 	width: 33.3333%;
 }
@@ -220,16 +252,59 @@ h1{
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
+
+@media (max-width:992px) {
+	.classic_ul{
+		flex-wrap: wrap;
+	}
+	.classic_ul .column{
+		width: 50%;
+	}
+} 
+@media (max-width:768px) {
+	.classic_ul{
+		flex-direction: column;
+		align-items: center;
+	}
+	.classic_ul .column{
+		width: 43.75%;
+	}
+	.classic_ul .img{
+		height: 336px;
+	}
+	.classic_ul a{
+		font-size: 36px;
+	}
+
+
+}
+	
+
+
+
 .design{
 	height: 608px;
 	background-image: url("../images/index-bg.png");
 	background-size: cover;
 }
-
-
+@media (max-width:768px) {
+	.design{
+		height: 960px;
+		background-image: url("../images/index-bg-md.png");
+		background-size: cover;
+	}
+	.design img{
+		height: 240px;
+	}
+	.design_ul{
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 24px;
+	}
+}
 .experience_ul .column{
 	width: 25%;
-	
 }
 .experience_pictxt .txt{
 	padding: 16px;
@@ -244,6 +319,17 @@ h1{
 .years_title{
   color: #707070;
 }
+@media (max-width:768px) {
+	.experience_ul{
+		flex-wrap: wrap;
+	}
+	.experience_ul .column{
+		width: 50%;
+		margin-bottom: 24px;
+	}
+}
+
+
 .connection{
 	background-color: #FBF2F2;
 }
@@ -282,7 +368,11 @@ h1{
 	margin:48px  auto 0 auto ;
 	border: none;
 }
-
+@media (max-width:768px) {
+	.form_box{
+		width: 75%;
+	}
+}
 
 
 .footer{
