@@ -294,6 +294,16 @@ h1{
 }
 .form_box .input{
 	margin-bottom: 16px;
+	border: 1px solid #000;
+}
+.checkbox{
+	align-items: flex-start;
+}
+.check{
+	width: 24px;
+	height: 18px;
+	padding-top: 0;
+	
 }
 .textarea{
 	height: 136px;
@@ -310,6 +320,9 @@ h1{
 .footer{
 	padding-top: 48px;
 }
+.nav_phome_email{
+	border-bottom: 1px solid #fff;
+}
 .footer_nav{
 	margin-bottom: 24px;
 }
@@ -324,9 +337,12 @@ h1{
 	height: 48px;
 }
 .phome_email{
-	border-bottom: 1px solid #fff;
 	padding-top: 24px;
 	padding-bottom: 24px;
+}
+.phome_email ul{
+	flex-direction: column;
+	gap:8px 0;
 }
 
 .phome_email svg{
@@ -361,7 +377,7 @@ h1{
 	}
 	
 	.header_nav{
-		/*font-size: 16px;*/
+		
 		margin-left: auto;
 		gap: 30px;
 	}
@@ -424,12 +440,14 @@ h1{
 		width: 75%;
 	}
 
-	.footer_nav{
-		gap: 80;
+	
+	.footer_nav .txt_ul{
+		width: 66.66%;
+		gap:0;
+		
 	}
-	.txt_ul{
-		width: 60%;
-		gap: 10%;
+	.txt_ul li{
+		width: 20%;
 	}
 	.icon_ul{
 		gap: 16px;
@@ -449,6 +467,9 @@ h1{
 		padding-right: 24px;
 		padding-left: 24px;
 	}
+	.h2{
+		font-size: 24px;
+	}
 	.header_nav{
 		width: 67%;
 		gap:0;
@@ -457,6 +478,7 @@ h1{
 	}
 	.header_nav li {
 		width: 50%;
+		
 	}
 	.banner_title p{
 		font-size: 24px;
@@ -465,6 +487,14 @@ h1{
 		font-size: 36px;
 	}
 	.classic_ul .img img{
+		width: 100%;
+	}
+
+
+	.form_box{
+		width: 100%;
+	}
+	.form_box .input_button{
 		width: 100%;
 	}
 
@@ -498,4 +528,52 @@ h1{
 		padding-right: 12px;
 		padding-left: 12px;
 	}
+	.header .container{
+		flex-wrap: wrap;
+		padding-right: 0;
+		padding-left: 0;	
+	}
+	.logo{
+		padding-left: 12px;
+	}
+	.header_nav{
+		width: 100%;
+	}
+
+	.header_nav li {
+		width: 50%;
+		border: 1px solid #fff;
+		
+	}
+	.nav_phome_email{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.footer{
+		padding-top: 24px;
+	}
+	.footer_nav{
+		width: 28%;
+	}
+	.icon_ul img{
+		width: 24px;
+		height: 24px;
+	}
+	.phome_email{
+		padding-top: 0;
+		width: 72%;
+	}
+	.phome_email p{
+		font-size: 16px;
+		
+	}
+	.phome_email svg{
+		width: 18px;
+		height: 18Spx;
+	}
+	.copyright ul{
+		flex-direction: column;
+	}
+	
 }
