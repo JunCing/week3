@@ -361,8 +361,9 @@ h1{
 	}
 	
 	.header_nav{
-		font-size: 16px;
+		/*font-size: 16px;*/
 		margin-left: auto;
+		gap: 30px;
 	}
 	.banner{
 		background-image:url("../images/home-header-sm.png");
@@ -444,7 +445,57 @@ h1{
 	.wrap .column{
 		width: 100%;
 	}
+	.container{
+		padding-right: 24px;
+		padding-left: 24px;
+	}
+	.header_nav{
+		width: 67%;
+		gap:0;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	}
+	.header_nav li {
+		width: 50%;
+	}
+	.banner_title p{
+		font-size: 24px;
+	}
+	.banner h1{
+		font-size: 36px;
+	}
 	.classic_ul .img img{
 		width: 100%;
+	}
+
+
+
+	.txt_ul{
+		display: none;
+	}
+	.phome_email p{
+		font-size: 24px;
+	}
+	.phome_email svg{
+		width: 24px;
+		height: 24px;
+	}
+	.copyright{
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10;
+	}
+	.copyright p{
+		padding-bottom: 10px;
+	}
+	.copyright ul{
+		gap: 16px;
+		
+	}
+}
+@media (max-width:375px) {
+	.container{
+		padding-right: 12px;
+		padding-left: 12px;
 	}
 }
