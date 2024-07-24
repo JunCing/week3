@@ -396,7 +396,7 @@ h1{
 		width: 50%;
 	}
 	.classic_ul .button a{
-		font-size: 48px;
+		font-size: 36px;
 	}
 } 
 @media (max-width:768px) {
@@ -438,7 +438,7 @@ h1{
 	}
 	.classic_ul .img{
 		height: 336px;
-		/*width: 336px;*/
+		
 	}
 	.classic_ul a{
 		font-size: 36px;
