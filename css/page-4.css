@@ -1,0 +1,61 @@
+
+.title-border{
+    border-left: 8px solid #9F1213
+}
+.column-pd-
+
+
+.stronghold_title{
+    padding-left: 16px;
+}
+.stronghold_list{
+    flex-wrap: wrap;
+}
+.stronghold_list .column{
+    width: 33.33333%;
+    margin-bottom: 40px;
+}
+
+.card_title{
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.card_title,.card ul{
+    border: 1px solid #00000020;
+    padding: 12px 25px;
+}
+.card ul li{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+}
+.card_button a{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #000;
+    color: #fff;
+}
+.card svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+@media(max-width:768px){
+    .stronghold_list .column{
+        width: 50%;
+        margin-bottom: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .card ul li{
+        font-size: 16px;
+        
+    }
+}
+@media(max-width:576px){
+    .stronghold_list .column{
+        width: 100%;
+        
+}
+}
