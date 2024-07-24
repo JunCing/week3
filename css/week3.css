@@ -238,11 +238,16 @@ h1{
 .classic_ul .column{
 	width: 33.3333%;
 }
+.class_pic_txt{
+	
+	
+}
 .classic_ul .img{
 	height:416px;
 }
 .classic_ul img{
 	height: 100%;
+	width: 100%;
 }
 .button a{
 	padding-top: 8px;
@@ -390,6 +395,9 @@ h1{
 	.classic_ul .column{
 		width: 50%;
 	}
+	.classic_ul .button a{
+		font-size: 48px;
+	}
 } 
 @media (max-width:768px) {
 	.container{
@@ -430,6 +438,7 @@ h1{
 	}
 	.classic_ul .img{
 		height: 336px;
+		/*width: 336px;*/
 	}
 	.classic_ul a{
 		font-size: 36px;
@@ -500,16 +509,22 @@ h1{
 		width: 50%;
 		
 	}
+	.banner{
+		height: 396px;
+	}
 	.banner_title p{
 		font-size: 24px;
 	}
 	.banner h1{
 		font-size: 36px;
 	}
+
 	.classic_ul .img img{
 		width: 100%;
 	}
-
+	.design{
+		height: 820px;
+	}
 
 	.form_box{
 		width: 100%;
@@ -569,9 +584,13 @@ h1{
 		border: 1px solid #fff;
 		
 	}
-	.design{
-		height: 820px;
+	.banner h1{
+		font-size: 24px;
 	}
+	.banner_title p{
+		font-size: 16px;
+	}
+	
 	.nav_phome_email{
 		display: flex;
 		flex-direction: row-reverse;
