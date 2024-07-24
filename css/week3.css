@@ -331,6 +331,7 @@ h1{
 	height: 56px;
 	margin:48px  auto 0 auto ;
 	border: none;
+	cursor: pointer;
 }
 
 
@@ -567,6 +568,9 @@ h1{
 		width: 50%;
 		border: 1px solid #fff;
 		
+	}
+	.design{
+		height: 820px;
 	}
 	.nav_phome_email{
 		display: flex;
