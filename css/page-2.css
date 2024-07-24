@@ -22,24 +22,29 @@
     margin-top: 80px;
 }
 
-
-
-
-.classic_button_list li{
-    width: 33.33333%;
-    border: 1px solid #DCDCDC;
-}
-.classic_button_list a{
+.nav_button_a{
     padding-top: 24px;
     padding-bottom: 24px;
 }
+.nav_button_a:hover{
+    border-bottom: 8px solid #AA0601;
+}
+
+.nav_button_li{
+    width: 33.33333%;
+    border: 1px solid #DCDCDC;
+}
+
+
+
+
+
+
 .classic_conainer{
     padding-left: 12px;
     padding-right: 12px;
 }
-.classic_bigimg img{
-   
-}
+
 .product_list {
     flex-wrap: wrap;
    
