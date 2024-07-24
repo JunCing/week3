@@ -182,7 +182,9 @@ h1{
 	padding-bottom: 25px;
 }
 .header_nav a:hover{
-	padding-top: 20px;
+	font-weight: bold;
+	/*padding-top: 20px;*/
+	
 }
 
 .banner{
@@ -544,6 +546,10 @@ h1{
 	.container{
 		padding-right: 12px;
 		padding-left: 12px;
+	}
+	.p-top_bottom{
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 	.header .container{
 		flex-wrap: wrap;
