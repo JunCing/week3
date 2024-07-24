@@ -118,6 +118,9 @@ h1{
 .j-space-between{
 	justify-content: space-between;
 }
+.j-flex-center{
+	justify-content: center;
+}
 .j-flex-end{
 	justify-content: flex-end;
 	
@@ -568,7 +571,7 @@ h1{
 	}
 	.phome_email svg{
 		width: 18px;
-		height: 18Spx;
+		height: 18px;
 	}
 	.copyright ul{
 		flex-direction: column;
