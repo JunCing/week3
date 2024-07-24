@@ -369,7 +369,7 @@ h1{
 .phome_email svg{
 	width: 36px;
 	height: 36px;
-	margin-right: 22px;
+	margin-right: 10px;
 }
 .copyright{
 	padding-top: 32px;
@@ -592,8 +592,10 @@ h1{
 		
 	}
 	.phome_email svg{
-		width: 18px;
-		height: 18px;
+		width: 16px;
+		height: 16px;
+		margin-right: 5px;
+		
 	}
 	.copyright ul{
 		flex-direction: column;

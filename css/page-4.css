@@ -7,6 +7,15 @@
 
 .stronghold_title{
     padding-left: 16px;
+   
+}
+.selectbox{
+    height: 40px;
+    margin-top: 32px;
+    margin-bottom: 46px;
+}
+.selectbox label{
+    margin-right: 16px;
 }
 .stronghold_list{
     flex-wrap: wrap;
@@ -56,6 +65,17 @@
 @media(max-width:576px){
     .stronghold_list .column{
         width: 100%;
-        
+    
 }
+.selectbox label{
+    font-size: 20px;
+}
+}
+@media (max-width:375px) {
+    .selectbox {
+        
+    }
+    .selectbox label{
+        font-size: 16px;
+    }
 }
